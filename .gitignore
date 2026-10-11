@@ -1,0 +1,47 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Test, coverage, and build output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# MLflow and other generated experiment output
+experiments/
+mlruns/
+
+# Generated model binaries and temporary exports.
+# Keep model cards and JSON metadata under models/ tracked.
+models/**/*.pkl
+models/**/*.pickle
+models/**/*.joblib
+models/**/*.skops
+models/**/*.h5
+models/**/*.onnx
+
+# Local notebook exports
+*.html
