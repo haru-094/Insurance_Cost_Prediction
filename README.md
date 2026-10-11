@@ -110,9 +110,3 @@ testing, performs five-fold cross-validation, and stores MLflow run data under
   experiments.
 - Serialized scikit-learn models should only be loaded from trusted sources.
 
-## Limitations
-
-The dataset is small and contains only a limited set of predictors. The model
-does not account for policy details, medical history, geographic costs, or
-changes in healthcare pricing. Performance on new populations or future
-pricing conditions may differ from the recorded test metrics.
