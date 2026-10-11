@@ -1,0 +1,19 @@
+# Notebook runtime
+jupyterlab
+
+# Data analysis and visualization
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+
+# Machine learning
+scikit-learn
+
+# Model persistence
+joblib
+cloudpickle
+
+# Experiment tracking and model signatures
+mlflow
